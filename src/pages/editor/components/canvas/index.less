@@ -1,0 +1,26 @@
+.editor-canvas {
+  position: relative;
+  overflow: scroll;
+  height: 100%;
+
+  .editor-canvas-content {
+    position: relative;
+    width: 2000px;
+    height: 200px;
+    background-color: aquamarine;
+
+    .editor-block {
+      position: absolute;
+
+      &-focus::after {
+        content: '';
+        position:absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border: 1px dashed rgb(251, 99, 99);
+      }
+    }
+  }
+}

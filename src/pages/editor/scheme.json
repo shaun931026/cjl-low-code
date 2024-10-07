@@ -1,0 +1,41 @@
+{
+  "container": {
+    "width": 550,
+    "height": 550
+  },
+  "blocks": [
+    {
+      "uid": 1,
+      "type": "text",
+      "top": 100,
+      "left": 100,
+      "zIndex": 1
+    },
+    {
+      "uid": 2,
+      "type": "input",
+      "top": 150,
+      "left": 200,
+      "zIndex": 1
+    },
+    {
+
+      "uid": 3,
+      "type": "input",
+      "top": 200,
+      "left": 200,
+      "zIndex": 1
+    },
+    {
+      "uid": 4,
+      "type": "button",
+      "top": 250,
+      "left": 200,
+      "zIndex": 1,
+      "props": {
+        "type": "primary",
+        "children": "按钮"
+      }
+    }
+  ]
+}

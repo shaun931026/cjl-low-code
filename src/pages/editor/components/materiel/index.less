@@ -1,0 +1,37 @@
+.materiel {
+  display: flex;
+  flex-wrap: wrap;
+
+  &-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 96px;
+    border-bottom: var(--common-border);
+    border-right: var(--common-border);
+    padding: 24px;
+    cursor: grab;
+    user-select: none;
+
+    &:nth-child(2n) {
+      border-right: none;
+    }
+
+    &-label {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 50%;
+      height: 24px;
+      line-height: 24px;
+      border-radius: 0 0 8px 0;
+      background: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      padding-left: 8px;
+      font-size: 12px;
+      z-index: 3;
+    }
+  }
+}
